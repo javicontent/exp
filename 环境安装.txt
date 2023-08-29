@@ -1,0 +1,9 @@
+conda create -n ear3dmm python=3.9
+conda activate ear3dmm
+
+配置清华源 https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/
+下载cuda11.0: https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local
+
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+conda install -c fvcore -c iopath -c conda-forge fvcore iopath
+
